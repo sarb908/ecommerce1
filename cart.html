@@ -7,8 +7,36 @@
     <title>Document</title>
 </head>
 <style>
+      body{
+        background-color: rgb(176, 243, 243);
+    }
+    .nav{
+        background-color: rgb(2, 41, 41);
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 15px;
+        border-radius: 7px;
+    }
+    .nav>div{
+            background-color: rgb(15, 145, 145);
+            color: white;
+            border-radius: 10px;
+            padding: 10px 15px;
+    }
+    .nav>div:hover{
+        cursor: pointer;
+        background-color: rgb(12, 70, 70);
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
     h1{
         text-align: center;
+    }
+    .temp{
+        display: grid;
+        grid-template-columns: 60% 30%;
     }
     .container h1{
         font-size: 16px;
@@ -21,7 +49,7 @@
         width: 90%;
         margin: auto;
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 10px;
     }
     .container>div{
@@ -48,29 +76,16 @@
     img{
         width: 100%;
     }
-    body{
-        background-color: rgb(176, 243, 243);
-    }
-    .nav{
-        background-color: rgb(2, 41, 41);
+    .total{
+        font-size: 38px;
+        text-align: center;
+        align-self: center;
         display: flex;
-        justify-content: space-between;
-        padding: 10px 15px;
-        border-radius: 7px;
-    }
-    .nav>div{
-            background-color: rgb(15, 145, 145);
-            color: white;
-            border-radius: 10px;
-            padding: 10px 15px;
-    }
-    .nav>div:hover{
-        cursor: pointer;
-        background-color: rgb(12, 70, 70);
-    }
-    a{
-        text-decoration: none;
-        color: white;
+        flex-direction: column;
+        gap:20px;
+        border:2px solid rgb(4, 39, 39);
+        border-radius: 10px;
+        padding: 10px;
     }
 
 </style>
@@ -82,12 +97,15 @@
         <div><a href="signup.html">Sign Up</a></div>
         <div><a href="cart.html">Cart</a></div>
     </div>
-    <h1>Women Page</h1>
+    
+    <div class="temp">
     <div class="container">
 
     </div>
+    <div class="total"></div>
+</div>
 </body>
 </html>
-<script src ="men.js">
-   
+<script src ="cart.js">
+
 </script>

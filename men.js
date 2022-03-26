@@ -3,7 +3,7 @@ var arr = [
       image_url:
         "https://content.shop4reebok.com/static/Product-EX4296/reebok_EX4296_1.jpg.plp",
       name: "MEN'S REEBOK RUNNING ROADMAP SHOES",
-      price: "$1170",
+      price: "1170",
       strikedoffprice: "$2599",
     },
     {
@@ -268,9 +268,22 @@ var arr = [
 
         var btn =document.createElement("button");
         btn.innerText = "add to cart";
+        btn.addEventListener("click", function(){
+          mycart(elem)
+        });
+
         div2.append(price, btn);
 
         div.append(img, name, div2);
 
         document.querySelector(".container").append(div);
     })
+
+    var cart = JSON.parse(localStorage.getItem("cart")) || [];
+    function mycart(elem){
+        console.log(elem)
+        cart.push(elem);
+        console.log(cart)
+        localStorage.setItem("cart", JSON.stringify(cart))
+        alert("Item is added😀");
+    }
