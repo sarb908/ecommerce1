@@ -13,13 +13,16 @@ function myfunc(){
     console.log(lemail, lpswd)
     arr.forEach(function(elem){
         if(lemail == elem.email && lpswd == elem.pswd){
-            alert("log in succesfull");
-          
-        }else{
+            
             count++
+        }else{
+           
         }
     })
     if(count>0){
+        alert("log in succesfull");
+      
+    }else{
         alert("invalid credential")
     }
 }

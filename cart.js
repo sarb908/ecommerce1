@@ -15,20 +15,25 @@ total.innerText = `Total items are ${totalItem}. \n Total price is ${total1}.`;
 var btn = document.createElement("button");
 btn.innerText = "CHECK OUT";
 
-var input1 = document.createElement("input");
+var input1 = document.createElement("input"); 
 input1.setAttribute("placeholder", "use promo code masai30");
 
 total.append(input1, btn);
-
-btn.addEventListener("click", function(){
+input1.addEventListener("change", function(){
   var input2 = input1.value;
   console.log(input2)
   if(input2 =="masai30"){
     total1 = Math.floor(total1*(0.7));
     price();
   }else{
-    alert("wrong promo code💥")
+    alert("wrong promo code💥");
   }
+})
+
+btn.addEventListener("click", function(){
+  
+  
+  window.location.href="payment.html"
 })
 
 };

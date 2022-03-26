@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form{
+        width: 30%;
+        margin: 60px auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    input{
+        height: 20px;
+    }
+    h1{
+        text-align: center;
+    }
+</style>
+<body>
+    <h1>PAYMENT PAGE</h1>
+
+   <form action="">
+        <input type="text" placeholder="name" id ="name">
+        <input type="number" placeholder="enter card details, number must be less than 5 digits" id ="card">
+        <input type="number" placeholder="CVV" id = "cvv">
+        <input type="date" placeholder="enter expiry date" id ="date">
+       <input type="submit" id ="submit" >
+    </form>
+    
+</body>
+</html>
+<script>
+        var btn = document.querySelector("form");
+        btn.addEventListener("submit", function(){
+            event.preventDefault();
+            var name = document.querySelector("#name").value;
+            var card = document.querySelector("#card").value;
+            var cvv = document.querySelector("#cvv").value;
+            var date = document.querySelector("#date").value;
+           if(name ==""){
+              return alert("invalid name")
+           } else if (card ==""){
+            return alert("invalid card number")
+           }else if (cvv ==""){
+            return alert("invalid cvv number")
+           }else if (date ==""){
+            return alert("invalid date")
+           }
+           window.location.href="otp.html";
+
+        })
+</script>

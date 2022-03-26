@@ -5,6 +5,7 @@ var arr = [
       name: "MEN'S REEBOK RUNNING ROADMAP SHOES",
       price: "1170",
       strikedoffprice: "$2599",
+      brand:"Z"
     },
     {
       image_url:
@@ -12,6 +13,7 @@ var arr = [
       name: "MEN'S REEBOK SWIM ARUBA FLIP SLIPPERS ",
       price: 699,
       strikedoffprice: 999,
+      brand:"E"
     },
     {
       image_url:
@@ -19,6 +21,7 @@ var arr = [
       name: " MEN'S REEBOK RUNNING AUSTIN SHOES",
       price: 945,
       strikedoffprice: 2099,
+      brand:"G"
     },
     {
       image_url:
@@ -26,6 +29,7 @@ var arr = [
       name: "MEN'S REEBOK SWIM AVENGER FLIP LP SLIPPERS",
       price: 399,
       strikedoffprice: 799,
+      brand:"W"
     },
     {
       image_url:
@@ -33,6 +37,7 @@ var arr = [
       name: "MEN'S REEBOK RUNNING TEMPO SHOES ",
       price: 1620,
       strikedoffprice: 3599,
+      brand:"M"
     },
     {
       image_url:
@@ -40,6 +45,7 @@ var arr = [
       name: " MEN'S REEBOK RUNNING ASTRO BOOSTER SHOES ",
       price: 1440,
       strikedoffprice: 3199,
+      brand:"V"
     },
     {
       image_url:
@@ -47,6 +53,7 @@ var arr = [
       name: " MEN'S TRAINING WORKOUT READY ELITAGE PANTS ",
       price: 1999,
       strikedoffprice: 3199,
+      brand:"O"
     },
     {
       image_url:
@@ -54,6 +61,7 @@ var arr = [
       name: "MEN'S REEBOK TRAINING  POLO T-SHIRTS TEE  ",
       price: 769,
       strikedoffprice: 1099,
+      brand:"Y"
     },
     {
       image_url:
@@ -61,6 +69,7 @@ var arr = [
       name: "MEN'S REEBOK TRAINING WORKOUT  TEE  ",
       price: 1299,
       strikedoffprice: 1440,
+      brand:"D"
     },
     {
       image_url:
@@ -68,6 +77,7 @@ var arr = [
       name: "MEN'S REEBOK SUPER SOFT FLIP SLIPPERS",
       price: 699,
       strikedoffprice: 999,
+      brand:"J"
     },
     {
       image_url:
@@ -75,6 +85,7 @@ var arr = [
       name: "MEN'S REEBOK RUNNING RUN SHOES  ",
       price: 1620,
       strikedoffprice: 3599,
+      brand:"R"
     },
     {
       image_url:
@@ -82,6 +93,7 @@ var arr = [
       name: "MEN'S REEBOK RUNNING GENESIS RUNNER SHOES  ",
       price: 1620,
       strikedoffprice: 3599,
+      brand:"I"
     },
     {
       image_url:
@@ -89,6 +101,7 @@ var arr = [
       name: "MEN'S REEBOK SWIM RUSSLE FLIP SLIPPERS  ",
       price: 599,
       strikedoffprice: 999,
+      brand:"P"
     },
     {
       image_url:
@@ -96,6 +109,7 @@ var arr = [
       name: " MEN'S REEBOK RUNNING TREND RUNNER SHOES",
       price: 1575,
       strikedoffprice: 3499,
+      brand:"H"
     },
     {
       image_url:
@@ -103,6 +117,7 @@ var arr = [
       name: "UNISEX REEBOK RUNNING ZIG KINETICA II SHOES  ",
       price: 9999,
       strikedoffprice: 12000,
+      brand:"E"
     },
     {
       image_url:
@@ -110,6 +125,7 @@ var arr = [
       name: " MEN'S REEBOK TRAINING BAS POLO TEE ",
       price: 779,
       strikedoffprice: 1299,
+      brand:"C"
     },
     {
       image_url:
@@ -117,6 +133,7 @@ var arr = [
       name: "MEN'S REEBOK TRAINING FOUNDATION  PANTS  ",
       price: 1019,
       strikedoffprice: 1699,
+      brand:"Q"
     },
     {
       image_url:
@@ -124,6 +141,7 @@ var arr = [
       name: "MEN'S REEBOK TRAINING FOUNDATION PANTS  ",
       price: 1019,
       strikedoffprice: 1699,
+      brand:"W"
     },
     {
       image_url:
@@ -131,6 +149,7 @@ var arr = [
       name: " MEN'S REEBOK RUNNING TREND SHOES",
       price: 1575,
       strikedoffprice: 3499,
+      brand:"R"
     },
     {
       image_url:
@@ -138,6 +157,7 @@ var arr = [
       name: "  MEN'S REEBOK RUNNING ZTAUR RUN SHOES ",
       price: 3499,
       strikedoffprice: 4999,
+      brand:"Y"
     },
     {
       image_url:
@@ -145,6 +165,7 @@ var arr = [
       name: "MEN'S REEBOK SWIM ULTRA FLIP SLIPPERS   ",
       price: 749,
       strikedoffprice: 1499,
+      brand:"U"
     },
     {
       image_url:
@@ -152,6 +173,7 @@ var arr = [
       name: "  MEN'S REEBOK SWIM FLEX CONNECT SANDALS ",
       price: 1149,
       strikedoffprice: 2299,
+      brand:"I"
     },
     {
       image_url:
@@ -159,6 +181,7 @@ var arr = [
       name: " MEN'S REEBOK RUNNING GENESIS RUNNER SHOE  ",
       price: 1620,
       strikedoffprice: 3599,
+      brand:"P"
     },
     {
       image_url:
@@ -166,93 +189,70 @@ var arr = [
       name: " MEN'S REEBOK TRAINING RUNNER SHORTS  ",
       price: 779,
       strikedoffprice: 1299,
+       brand:"M"
     },
-    {
-      image_url:
-        " https://content.shop4reebok.com/static/Product-HB5732/reebok_HB5732_1.jpg.plp  ",
-      name: " MEN REEBOK CLASSICS TRACKSUIT HOODIE  ",
-      price: 3499,
-      strikedoffprice: 4999,
-    },
-    {
-      image_url:
-        " https://content.shop4reebok.com/static/Product-HB5733/reebok_HB5733_1.jpg.plp  ",
-      name: "MEN'S REEBOK CLASSIC TRACKSUIT GOLF HOODIE   ",
-      price: 3499,
-      strikedoffprice: 4999,
-    },
-    {
-      image_url:
-        "https://content.shop4reebok.com/static/Product-FQ5364/reebok_FQ5364_1.jpg.plp   ",
-      name: " UNISEX REEBOK TRAINING ACTIVE  BAG ",
-      price: 1399,
-      strikedoffprice: 2799,
-    },
-    {
-      image_url:
-        "https://content.shop4reebok.com/static/Product-FW0318/reebok_FW0318_1.jpg.plp ",
-      name: " MEN'S REEBOK RUNNING TREND RUNNER SHOES",
-      price: 1575,
-      strikedoffprice: 3499,
-    },
-    {
-      image_url:
-        "https://content.shop4reebok.com/static/Product-G57705/reebok_G57705_1.jpg.plp",
-      name: "UNISEX REEBOK CLASSICS  BASKETBALL SHOES",
-      price: 3919,
-      strikedoffprice: 5599,
-    },
-    {
-      image_url:
-        "https://content.shop4reebok.com/static/Product-FW0344/reebok_FW0344_1.jpg.plp",
-      name: "MEN'S REEBOK RUNNING RUN FUSION  SHOES",
-      price: 1620,
-      strikedoffprice: 3599,
-    },
-    {
-      image_url:
-        "https://content.shop4reebok.com/static/Product-EX4272/reebok_EX4272_1.jpg.plp",
-      name: "MEN'S REEBOK RUNNING QUICK DRIFTER SHOES",
-      price: 1620,
-      strikedoffprice: 3599,
-    },
-    {
-      image_url:
-        "https://content.shop4reebok.com/static/Product-H02293/reebok_H02293_1.jpg.plp",
-      name: "MEN'S REEBOK DYNAMIC ZIGZAG SHOES",
-      price: 7599,
-      strikedoffprice: 9999,
-    },
-    {
-      image_url:
-        "https://content.shop4reebok.com/static/Product-FV9551/MEN_SWIM_SLIPPERS_FV9551_1.jpg.plp",
-      name: "MEN'S REEBOK SWIM SUPERSOFT FLIP SLIPPERS",
-      price: 909,
-      strikedoffprice: 1299,
-    },
-    {
-      image_url:
-        "https://content.shop4reebok.com/static/Product-HC3528/reebok_HC3528_1.jpg.plp",
-      name: "MEN'S REEBOK TRAINING ACTIVE BASIC POLO TEE",
-      price: 779,
-      strikedoffprice: 1299,
-    },
-    {
-      image_url:
-        "https://content.shop4reebok.com/static/Product-HF3794/reebok_HF3794_01.JPG.plp ",
-      name: "MEN'S REEBOK TRAINING ACTIVE MOVE TEE ",
-      price: 1749,
-      strikedoffprice: 2499,
-    },
-    {
-      image_url:
-        "https://content.shop4reebok.com/static/Product-HG5456/reebok_HG5456_1.jpg.plp",
-      name: "MEN'S REEBOK FITNESS TRAINING  SWEATSHIRT",
-      price: 1079,
-      strikedoffprice: 1799,
-    },
+    
   ];
+
+
+  var select = document.querySelector("select");
+  select.addEventListener("change", function(){
+  console.log(select.value);
+  if(select.value =="lth"){
+    arr.sort(function(a, b){
+      if(a.price > b.price){
+        return 1
+      }else if(a.price < b.price){
+        return -1;
+      }
+    })
+  }else if (select.value =="htl"){
+    arr.sort(function(a, b){
+      if(a.price > b.price){
+        return -1
+      }else if(a.price < b.price){
+        return 1;
+      }
+    })
+  }
+  display(arr)
+ 
+  });
+
+  var name1 = document.querySelector("#name");
+  name1.addEventListener("change", function(){
+  console.log(name1.value);
+  if(name1.value =="asc"){
+    arr.sort(function(a, b){
+      if(a.brand > b.brand){
+        return 1
+      }else if(a.brand < b.brand){
+        return -1;
+      }
+    })
+  }else if (name1.value =="dsc"){
+    arr.sort(function(a, b){
+      if(a.brand > b.brand){
+        return -1
+      }else if(a.brand < b.brand){
+        return 1;
+      }
+    })
+  }
+  display(arr)
+ 
+  });
+
+
+
+
+  display(arr);
+
+
+  function display(arr){
+    document.querySelector(".container").innerHTML="";
     arr.forEach(function(elem){
+
         var div = document.createElement("div");
         var img = document.createElement("img");
         img.src =elem.image_url;
@@ -266,13 +266,16 @@ var arr = [
         var price = document.createElement("p");
         price.innerText =elem.price;
 
+        var brand = document.createElement("p");
+        brand.innerText =`Brand:${elem.brand}`;
+
         var btn =document.createElement("button");
         btn.innerText = "add to cart";
         btn.addEventListener("click", function(){
           mycart(elem)
         });
 
-        div2.append(price, btn);
+        div2.append(price,brand,  btn);
 
         div.append(img, name, div2);
 
@@ -287,3 +290,4 @@ var arr = [
         localStorage.setItem("cart", JSON.stringify(cart))
         alert("Item is added😀");
     }
+  }
